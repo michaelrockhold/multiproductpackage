@@ -1,0 +1,17 @@
+multiproductpackage
+
+This tiny project exists to demonstrate what a Swift Package Manager package
+that builds three related products ought to look like.
+
+It's not particularly elaborate, but it provides an example of a simple
+library that exposes one lonely entry point, plus an even simpler command-line
+tool that calls that library. There is also the beginnings of a second client,
+which in the fullness of time might one day be a proper app. Or not.
+
+You can build and run this tool on the command line with the usual swift and Swift
+Package Manager commands, eg
+
+> swift run --run tooly
+
+or you can use XCode to open _the folder containing_ Package.swift, and you
+should be able to run tooly or the libby tests in the debugger.
